@@ -5,4 +5,4 @@ hello.o: hello.c
 	gcc -c hello.c
 
 install: 
-	cp helloOSC /usr/bin/helloOSC
+	cp helloOSC $(PREFIX)/usr/bin/helloOSC
